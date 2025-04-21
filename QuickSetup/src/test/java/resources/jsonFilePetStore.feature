@@ -1,3 +1,4 @@
+    #modificado en hotfix
 @e2ev
 Feature: prueba API crear pedido PET
 
@@ -56,5 +57,4 @@ Feature: prueba API crear pedido PET
     When method GET
     And eval java.lang.Thread.sleep(5000)
     Then status 404
-
-    #modificado en hotfix
+    And print resolve
